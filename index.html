@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1d392b">
+  <meta name="description" content="SIR Gardens creates beautiful, considered outdoor spaces — from garden design and planting to complete landscape transformations.">
+  <title>SIR Gardens | Thoughtful Garden Design & Landscaping</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" as="image" href="assets/spring.webp">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="announcement"><span class="announcement-dot"></span> Thoughtful garden design · Beautifully considered landscapes</div>
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="SIR Gardens home"><img src="assets/sir-gardens-logo.webp" alt="SIR Gardens — Eleganța viitorului verde"></a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="main-nav"><span></span><span></span></button>
+    <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+      <a href="#seasons">The seasons</a>
+      <a href="#services">Our services</a>
+      <a href="#approach">Our approach</a>
+      <a href="#inspiration">Inspiration</a>
+      <a class="nav-cta" href="#contact">Start a project <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-label="Seasonal garden inspiration">
+      <div class="hero-media" id="hero-media" data-season="spring">
+        <img class="hero-image is-active" id="hero-image-a" src="assets/spring.webp" alt="Luxury spring garden with flowering borders and a stone pathway" fetchpriority="high">
+        <img class="hero-image" id="hero-image-b" src="assets/summer.webp" alt="Sunlit summer garden with reflecting pool and manicured hedges">
+        <div class="hero-shade"></div>
+        <div class="hero-grain"></div>
+        <div class="season-particles" id="season-particles" aria-hidden="true"></div>
+      </div>
+      <div class="hero-content">
+        <p class="eyebrow light-eyebrow"><span></span> SIR GARDENS · LANDSCAPE DESIGN</p>
+        <h1 id="hero-title">A garden that feels<br><em>like it was always yours.</em></h1>
+        <p class="hero-copy" id="hero-copy">Thoughtful design, beautiful planting and considered details — creating outdoor spaces to live in, grow with and love.</p>
+        <div class="hero-actions">
+          <a class="button button-gold" href="#contact">Discuss your garden <span>↗</span></a>
+          <a class="text-link light-link" href="#services">Explore our services <span>↓</span></a>
+        </div>
+      </div>
+      <div class="hero-bottom">
+        <div class="season-picker" role="group" aria-label="Choose a season">
+          <button class="season-button is-selected" data-season="spring" aria-pressed="true"><span class="season-dot spring-dot"></span>Spring</button>
+          <button class="season-button" data-season="summer" aria-pressed="false"><span class="season-dot summer-dot"></span>Summer</button>
+          <button class="season-button" data-season="autumn" aria-pressed="false"><span class="season-dot autumn-dot"></span>Autumn</button>
+          <button class="season-button" data-season="winter" aria-pressed="false"><span class="season-dot winter-dot"></span>Winter</button>
+        </div>
+        <div class="hero-index"><span id="season-index">01</span><i></i> 04</div>
+      </div>
+      <a class="scroll-cue" href="#seasons" aria-label="Scroll to explore"><span></span> Scroll to explore</a>
+    </section>
+
+    <section class="intro section-pad" id="seasons">
+      <div class="intro-kicker"><span class="eyebrow">A GARDEN FOR EVERY MOMENT</span><span class="fine-line"></span><span class="intro-number">01 / 04</span></div>
+      <div class="intro-grid">
+        <h2>Every season has<br>a <em>story to tell.</em></h2>
+        <div class="intro-text"><p class="large-copy">A truly beautiful garden is never standing still. It changes with the light, the weather and the passing of time.</p><p>We bring structure, colour and quiet character together, so your outdoor space has something wonderful to offer in every season.</p></div>
+      </div>
+      <div class="season-grid">
+        <button class="season-card spring-card" data-season="spring" aria-label="View spring garden">
+          <img src="assets/spring.webp" alt="Spring garden with cherry blossom, tulips and flowering borders" loading="lazy">
+          <span class="season-card-overlay"></span><span class="season-card-label"><small>01 · RENEWAL</small><strong>Spring</strong><i>View season ↗</i></span>
+        </button>
+        <button class="season-card summer-card" data-season="summer" aria-label="View summer garden">
+          <img src="assets/summer.webp" alt="Summer estate garden with lawn, lavender and a pool" loading="lazy">
+          <span class="season-card-overlay"></span><span class="season-card-label"><small>02 · ABUNDANCE</small><strong>Summer</strong><i>View season ↗</i></span>
+        </button>
+        <button class="season-card autumn-card" data-season="autumn" aria-label="View autumn garden">
+          <img src="assets/autumn.webp" alt="Autumn garden with fiery leaves and warm golden light" loading="lazy">
+          <span class="season-card-overlay"></span><span class="season-card-label"><small>03 · TRANSITION</small><strong>Autumn</strong><i>View season ↗</i></span>
+        </button>
+        <button class="season-card winter-card" data-season="winter" aria-label="View winter garden">
+          <img src="assets/winter.webp" alt="Snow-covered winter garden with illuminated stone manor" loading="lazy">
+          <span class="season-card-overlay"></span><span class="season-card-label"><small>04 · STILLNESS</small><strong>Winter</strong><i>View season ↗</i></span>
+        </button>
+      </div>
+    </section>
+
+    <section class="statement-band">
+      <div class="statement-inner"><span class="eyebrow light-eyebrow">THE SIR GARDENS SIGNATURE</span><p>More than a garden.<br><em>A place to belong.</em></p><span class="statement-ornament">✳</span></div>
+    </section>
+
+    <section class="services section-pad" id="services">
+      <div class="section-heading">
+        <div><span class="eyebrow">WHAT WE DO</span><h2>From first sketch<br>to <em>final flourish.</em></h2></div>
+        <p>Whether you are reimagining a small courtyard or transforming an entire landscape, every detail begins with understanding how you want to feel in your garden.</p>
+      </div>
+      <div class="service-list">
+        <article class="service-item"><span class="service-no">01</span><div class="service-icon" aria-hidden="true">✳</div><div class="service-body"><h3>Garden design & planning</h3><p>Thoughtful layouts, considered materials and a clear design direction that brings your vision to life.</p></div><a href="#contact" class="round-arrow" aria-label="Enquire about garden design">↗</a></article>
+        <article class="service-item"><span class="service-no">02</span><div class="service-icon" aria-hidden="true">⌁</div><div class="service-body"><h3>Landscape construction</h3><p>Beautifully built pathways, patios, levels, borders and outdoor spaces made for everyday living.</p></div><a href="#contact" class="round-arrow" aria-label="Enquire about landscaping">↗</a></article>
+        <article class="service-item"><span class="service-no">03</span><div class="service-icon" aria-hidden="true">❋</div><div class="service-body"><h3>Planting & lawn design</h3><p>Layered planting, seasonal colour and soft, natural textures that give your garden its character.</p></div><a href="#contact" class="round-arrow" aria-label="Enquire about planting">↗</a></article>
+        <article class="service-item"><span class="service-no">04</span><div class="service-icon" aria-hidden="true">☼</div><div class="service-body"><h3>Garden care & refinement</h3><p>Ongoing care and thoughtful improvements to keep your outdoor space looking its best.</p></div><a href="#contact" class="round-arrow" aria-label="Enquire about garden care">↗</a></article>
+      </div>
+    </section>
+
+    <section class="approach" id="approach">
+      <div class="approach-image"><img src="assets/summer.webp" alt="Beautifully designed garden terrace surrounded by mature trees and planting" loading="lazy"><span class="image-caption">A considered balance of form, texture and nature.</span></div>
+      <div class="approach-content"><span class="eyebrow">A MORE PERSONAL APPROACH</span><h2>Designed around<br><em>the way you live.</em></h2><p class="large-copy">The best gardens feel effortless. Behind that feeling is a careful process — listening, planning and bringing every element together with purpose.</p><div class="approach-points"><div><span>01</span><p><strong>We listen</strong><br>Your ideas, routines and ambitions shape the starting point.</p></div><div><span>02</span><p><strong>We shape</strong><br>A considered design connects the house, garden and wider setting.</p></div><div><span>03</span><p><strong>We bring it to life</strong><br>Every finish and planting choice works towards the whole.</p></div></div><a class="text-link dark-link" href="#contact">Let's talk about your space <span>↗</span></a></div>
+    </section>
+
+    <section class="inspiration section-pad" id="inspiration">
+      <div class="inspiration-head"><div><span class="eyebrow">A LITTLE INSPIRATION</span><h2>Find your garden <em>feeling.</em></h2></div><p>Explore the changing character of the garden, from the first spring flower to a quiet winter evening.</p></div>
+      <div class="inspiration-feature"><img id="inspiration-image" src="assets/autumn.webp" alt="Autumn estate garden in golden afternoon light" loading="lazy"><div class="inspiration-copy"><span class="eyebrow light-eyebrow" id="inspiration-season">THE AUTUMN EDIT</span><h3 id="inspiration-title">A golden hour<br>that lasts.</h3><p id="inspiration-desc">Rich foliage, gentle light and a garden that feels wonderfully tucked away.</p><button class="outline-button" id="inspiration-next">Discover another season <span>↗</span></button></div></div>
+    </section>
+
+    <section class="contact section-pad" id="contact">
+      <div class="contact-top"><span class="eyebrow light-eyebrow">YOUR NEXT CHAPTER STARTS OUTSIDE</span><h2>Let's create<br>something <em>beautiful.</em></h2><p>Tell us a little about your garden, your ideas and what you would love to change. We would be delighted to hear from you.</p><div class="contact-details" aria-label="SIR Gardens contact details"><a href="tel:+40745815762"><span class="contact-detail-icon" aria-hidden="true">☎</span><span><small>CALL US</small><strong>+40 745 815 762</strong></span></a><a href="mailto:info@sirgaedens.com"><span class="contact-detail-icon" aria-hidden="true">✉</span><span><small>EMAIL US</small><strong>info@sirgaedens.com</strong></span></a></div></div>
+      <form class="contact-form" id="contact-form">
+        <div class="form-row"><label>Your name<input type="text" name="name" placeholder="How should we address you?" required></label><label>Email address<input type="email" name="email" placeholder="you@example.com" required></label></div>
+        <label>What are you dreaming of?<select name="project" required><option value="" disabled selected>Select a service</option><option>Garden design & planning</option><option>Landscape construction</option><option>Planting & lawn design</option><option>Garden care & refinement</option><option>Not sure yet — let's talk</option></select></label>
+        <label>Tell us about your garden<textarea name="message" rows="4" placeholder="A few details about your space and ideas..." required></textarea></label>
+        <button class="button button-gold submit-button" type="submit">Prepare your enquiry <span>↗</span></button>
+        <p class="form-note" id="form-note">Your email app will open with your enquiry addressed to info@sirgaedens.com. You can also call us on +40 745 815 762.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-main"><a href="#top" class="footer-brand"><img src="assets/sir-gardens-logo.webp" alt="SIR Gardens — Eleganța viitorului verde"></a><p>Thoughtful garden design.<br>Eleganța viitorului verde.</p><div class="footer-links"><a href="#services">Services</a><a href="#approach">Our approach</a><a href="#inspiration">Inspiration</a><a href="#contact">Contact</a><a href="tel:+40745815762">+40 745 815 762</a><a href="mailto:info@sirgaedens.com">info@sirgaedens.com</a></div><a class="back-top" href="#top" aria-label="Back to top">↑</a></div>
+    <div class="footer-bottom"><span>© <span id="year"></span> SIR Gardens. All rights reserved.</span><span>LANDSCAPE DESIGN · OUTDOOR LIVING</span><a href="#top">Back to the top ↑</a></div>
+  </footer>
+</body>
+</html>
